@@ -7,12 +7,19 @@ yarn install
 yarn dev
 ```
 
+If you encounter a warning where there are unmet peer dependencies, you can run the following command to resolve.
+
+```bash
+yarn install --check-files
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## What's in the Stack?
 
 - Obviously [Next.js 13](), **pages** and **app** directory, enabled
 - Unit testing with [Vitext]() and [JavaScript Testing Library]()
+- e2e testing with [Cypress]()
 - Styling with [Tailwind]()
 - [Storybook](), including support for a11y
 - Code formatting with [Prettier]()
