@@ -13,7 +13,8 @@
     "generate:component": "plop component",
     "generate:page": "plop page",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@storybook/addon-a11y": "^6.5.14",
@@ -41,6 +42,7 @@
     "@testing-library/react": "^13.4.0",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
+    "cypress": "^12.0.2",
     "eslint-plugin-storybook": "^0.6.8",
     "jsdom": "^20.0.3",
     "plop": "^3.1.1",
