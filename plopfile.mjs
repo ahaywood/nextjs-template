@@ -18,15 +18,15 @@ export default function (plop) {
     }], // array of inquirer prompts
     actions: [{
       type: 'add',
-      path: 'app/components/{{pascalCase name}}/{{pascalCase name}}.tsx',
+      path: 'components/{{pascalCase name}}/{{pascalCase name}}.tsx',
       templateFile: 'plop-templates/component/component.tsx.hbs'
     }, {
       type: 'add',
-      path: 'app/components/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
+      path: 'components/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
       templateFile: 'plop-templates/component/component.stories.tsx.hbs'
     }, {
       type: 'add',
-      path: 'app/components/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
+      path: 'components/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
       templateFile: 'plop-templates/component/component.test.tsx.hbs'
     }, {
       type: 'add',
